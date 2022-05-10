@@ -1,0 +1,27 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  section.intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.intro img {
+    width: 100%;
+  }
+  section.intro .text-intro {
+    margin: 0;
+  }
+  section.intro .text-intro h1 {
+    width: 100%;
+    font-size: 48px;
+  }
+  section.intro .text-intro p {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,21 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    section.intro {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        img {
+            width: 100%;
+        }
+        .text-intro {
+            margin: 0;
+            h1 {
+                width: 100%;
+                font-size: 48px;
+            }
+            p {
+                width: 100%;
+                font-size: 18px;
+            }
+        }
+    }
+}

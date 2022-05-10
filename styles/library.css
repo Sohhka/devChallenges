@@ -1,0 +1,73 @@
+:root {
+  --fontColor: #303030;
+  --mainColor: #9a7a67;
+  --whitecolor: #ffffff;
+  --h3Color: #BDBDBD;
+  --bodyPadding: 100px;
+  --H1Size: 64px;
+  --pSize: 24px;
+  --buttonSize: 14px;
+}
+
+@media screen and (max-width: 1500px) {
+  :root {
+    --bodyPadding: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --bodyPadding: 50px;
+    --titleSize: 4.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    --bodyPadding: 20px;
+  }
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  color: var(--fontColor);
+  font-size: var(--H1Size);
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  color: var(--fontColor);
+  font-size: var(--pSize);
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--h3Color);
+  font-size: var(--buttonSize);
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: var(--pSize);
+  color: var(--fontColor);
+}
+
+a {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: var(--buttonSize);
+  color: var(--whitecolor);
+  text-transform: uppercase;
+}
+
+a.button {
+  padding: 20px 20px;
+  display: inline-block;
+  background: #333333;
+}
+/*# sourceMappingURL=library.css.map */

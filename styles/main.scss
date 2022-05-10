@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: rgb(255, 252, 247);
+    padding: 0 var(--bodyPadding);
+}
+
+//header
+header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    a {
+        margin-left: 10px;
+    }
+}
+
+//homepage
+
+//intro
+section.intro {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    img {
+        width: 45%;
+    }
+    .text-intro {
+        margin-left: 80px;
+        p {
+            margin: 20px 0;
+            width: 50%;
+        }
+    }
+}
+
+section.footer {
+    h3 {
+        text-align: center;
+    }
+}
